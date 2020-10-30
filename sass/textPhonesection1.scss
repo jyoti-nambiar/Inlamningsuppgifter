@@ -1,0 +1,42 @@
+/* phone image div with image on the right and text paragraph on the left */
+
+
+.text-driver{
+    padding:10px 30px 20px;
+    line-height: 24px;
+}
+
+.text-driver h2{
+    margin-bottom: 2%;
+
+
+}
+
+/* media queries for setting up view for larger screen size */
+
+@media only screen and (min-width: 768px) {
+
+    .text-driver{
+        margin:100px;
+        display: flex;
+        justify-content: center;
+        width:90%;
+       }
+       
+       
+       .text-driver img{
+       
+           height:100%;
+       }
+       .col{
+       
+           width:300px;
+           margin-top:50px;
+       }
+       
+       
+       .col h2{
+       margin-bottom: 50px;
+       
+       }
+}

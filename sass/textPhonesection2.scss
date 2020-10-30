@@ -1,0 +1,47 @@
+/* the phone section with phone on the lef and text on the right */
+
+.user-test {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.user-test p{
+    
+    padding:10px 30px 10px;
+    position:relative;
+    bottom:10%;
+    line-height: 24px;
+     width:100%; 
+}
+
+@media only screen and (min-width: 768px){
+
+   
+    .user-test{
+        margin: 60px 0px 30px 0;
+     display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .user-test img{
+       
+         height:100%;
+        float: right;
+    }
+    .user-test div{
+        margin-top: 10px;
+        align-self: center;
+        width:50%;
+        float: left;
+    }
+
+    .user-test p{
+width:65%;
+
+    }
+
+}
